@@ -1,0 +1,15 @@
+premier;second;victoires_premier;victoires_second;nuls;duree_s
+MinMax_h1;StupidBot;91;3;6;0.8
+StupidBot;MinMax_h1;6;90;4;0.7
+StupidBot;Glouton;12;76;12;0.1
+Glouton;StupidBot;79;14;7;0.1
+MCTS;MinMax_h2;70;15;15;21.6
+MinMax_h2;MCTS;9;68;23;20.5
+MinMax_h1;MinMax_h2;100;0;0;1.5
+MinMax_h2;MinMax_h1;0;100;0;1.6
+Glouton;MinMax_h1;0;100;0;0.8
+MinMax_h1;Glouton;100;0;0;1.0
+MCTS;StupidBot;96;0;4;18.7
+StupidBot;MCTS;0;98;2;17.4
+MCTS;Glouton;57;26;17;16.6
+Glouton;MCTS;7;80;13;16.8
